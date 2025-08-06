@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>location</string>
+	</array>
+	<key>WKBackgroundModes</key>
+	<array>
+		<string>self-care</string>
+		<string>workout-processing</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>DriveSense uses location to detect when you're driving and automatically start health monitoring for driving safety assessment.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>DriveSense uses location in the background to detect driving activity and automatically monitor your health for driving safety.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>DriveSense needs access to your health data to monitor vital signs and provide driving safety assessments. This includes heart rate, heart rate variability, blood oxygen, respiratory rate, step count, and active energy data.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>DriveSense does not write to your health data. We only read your health information to provide driving safety insights.</string>
+</dict>
+</plist>
